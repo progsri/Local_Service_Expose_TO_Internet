@@ -14,7 +14,6 @@
     <groupId>com.ninjashore.poc</groupId>
     <artifactId>Local_Service_Expose_TO_Internet</artifactId>
     <version>1.0.0</version>
-    <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
   <properties>
@@ -25,12 +24,18 @@
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
+      <artifactId>spring-boot-starter</artifactId>
+      <version>1.5.4.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>5.0.0.BUILD-SNAPSHOT</version>
+      <version>4.3.10.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot</artifactId>
+      <version>1.5.4.RELEASE</version>
     </dependency>
   </dependencies>
 
